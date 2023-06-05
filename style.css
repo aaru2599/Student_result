@@ -1,0 +1,20 @@
+.main{
+    background-color: rgb(168, 146, 146);
+     margin: auto;
+     padding: 25px;
+      width: 300px; 
+       height: auto;
+}
+.heading{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    
+    display: table; /* keep the background color wrapped tight */
+margin: 5px auto 10px auto; /* keep the table centered */
+padding:5px;font-size:20px;background-color:green;color:#ffffff;
+}
+.btn{
+    text-align: center;
+    margin-left: 120px;
+}

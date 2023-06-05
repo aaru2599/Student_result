@@ -1,0 +1,75 @@
+<!-- accept rollno, name, subject marks from user then find the grade of the student 
+Avg          grade
+90-100       A+
+80-89        A
+70-79        B+
+60-69        B
+50-59        C
+40-49        D
+0-39         Fail
+Note: Min max in   
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3 class="heading">Student Result</h3>
+    <div class="main"  >
+
+    
+    <table >
+
+        <caption><h3>Student Marks Report</h3></caption>
+        <tr>
+            <td><label >Rol Number:-</label></td>
+            <td><input type="text" id="rno"></td>
+        </tr>
+        <tr>
+            <td><label >Name:-</label></td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td><label >Marks Are:</label></td>
+        </tr>
+        <tr>
+            <td><label >HTML:-</label></td>
+            <td><input type="text" id="html"></td>
+        </tr>
+        <tr>
+            <td><label >CSS:-</label></td>
+            <td><input type="text" id="css"></td>
+        </tr>
+        <tr>
+            <td><label >JavaScript:-</label></td>
+            <td><input type="text" id="js"></td>
+        </tr>
+        <tr>
+            <td><label >BootStrap:-</label></td>
+            <td><input type="text" id="bs"></td>
+        </tr>
+        <tr>
+            <td colspan="2";><button onclick="getResult()" class="btn"> GetResult</button></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <output id="total"></output><br>
+                <output id="average"></output><br>
+                <output id="grade"></output><br>
+                
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+ <script src="./script.js"></script>   
+</body>
+</html>
